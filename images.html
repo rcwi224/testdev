@@ -1,0 +1,33 @@
+<!DOCtype html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Testing Images in HTML5</title>
+  </head>
+
+  <body>
+    <h1>First test with images!</h1>
+    <h2>Height and Width Adjustments</h2>
+    <img src="images/Profile image.jpg" alt="Profile Picture"
+      title="Profile Picture Large" height="280" width="225">
+    <img src="images/Profile image.jpg" alt="Profile Picture"
+      title="Profile Picture Medium" height="180" width="135">
+    <img src="images/Profile image.jpg" alt="Profile Picture"
+      title="Profile Picture Small" height="100" width="75">
+
+    <h2>Responsive Images Test</h2>
+    <img src="images/Profile-image-900x676.png"
+      alt="Responsive Profile Picture"
+      srcset="images/Profile-image-450x338.png 338w"
+      sizes="(max-width: 676px) 338px, 676px">
+
+    <h2>External Images Test</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Cage_The_Elephant_Live_%40_Bonnaroo_2017.jpg/800px-Cage_The_Elephant_Live_%40_Bonnaroo_2017.jpg"
+      alt="Cage the Elephant Concert">
+
+
+  </body>
+
+</html>
