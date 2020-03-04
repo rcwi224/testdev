@@ -1,0 +1,63 @@
+<!DOCtype html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Forms in HTML5</title>
+  </head>
+
+  <body>
+    <h2>Setting Up Your Profile!</h2>
+
+    <form action = "scripts/action.php" method = "post">
+
+      <label><b>First Name:</b><br>
+        <input type = "text" name="firstname"><br>
+      </label>
+      <label><b>Last Name:</b><br>
+        <input type = "text" name="lastname"><br>
+      </label>
+      <label><b>Email:</b><br>
+        <input type = "text" name="email">
+      </label>
+
+      <br>
+      <br>
+
+
+      <input type = "radio" name = "gender" value = "female"> Female <br>
+      <input type = "radio" name = "gender" value = "male"> Male <br>
+      <input type = "radio" name = "gender" value = "other"> Other <br>
+
+
+<br>
+
+      <label for = "fav_album"><b>What's Your Favorite Cage The Elephant Album?</b></label>
+      <select id = "favorite_album" name = "favorite_album">
+        <option value = ""> -- Please choose an option! -- </option>
+        <option value = "Cage the Elephant">Cage the Elephant </option>
+        <option value = "Thank You, Happy Birthday">Thank You, Happy Birthday</option>
+        <option value = "Melophobia">Melophobia </option>
+        <option value = "Tell Me I'm Pretty">Tell Me I'm Pretty </option>
+        <option value = "Unpeeled">Unpeeled </option>
+        <option value = "Social Cues">Social Cues </option>
+      </select><br>
+
+
+<br>
+
+
+      <label><b>Tell us a little about yourself!:</b><br>
+        <textarea name = "comment" rows="6" cols="50"> </textarea>
+      </label><br>
+
+      <input type = "submit" value = "Submit">
+
+
+    </form>
+
+  </body>
+
+
+</html>
