@@ -113,3 +113,25 @@ article > img{
 
 
 }
+
+a[href] {
+  background-color: #F5F5F5;
+  color: #A569BD;
+
+}
+
+a:visited {
+  color: #fc79fa;
+
+}
+
+tr:hover {
+  color: #874af7;
+
+}
+
+p::selection {
+  background-color: #874af7;
+  color: white;
+
+}
