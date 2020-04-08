@@ -10,6 +10,15 @@ h1 {
   padding: 10px;
 }
 
+header > h1 {
+  font-family:Gerogia, serif;
+  color: #A569BD;
+  background-color: #EBDEF0;
+  padding: 10px;
+  text-align: center;
+
+}
+
 h2 {
   font-family:Gerogia, serif;
   color: #A569BD;
@@ -53,6 +62,16 @@ blockquote {
   background-color: #EBDEF0;
   padding: 10px;
 
+
+}
+
+header > blockquote {
+  font-family: "Courier New";
+  background-color: #EBDEF0;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+
 }
 
 table, th, td{
@@ -78,8 +97,8 @@ nav > ul {
 
 nav > ul > li {
   display: inline;
-  border: 3px solid #A569BD;
-  padding: 15px;
+  border: 1px solid #A569BD;
+  padding: 10px;
   background-color: #EBDEF6;
 
 }
@@ -101,7 +120,7 @@ header > img{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-
+  border: 2px solid #A569BD;
 
 }
 
@@ -114,9 +133,17 @@ article > img{
 
 }
 
+footer {
+  border: 2px solid #A569BD;
+  text-align: center;
+  background-color: #EBDEF0;
+  font-family: arial;
+}
+
 a[href] {
   background-color: #F5F5F5;
   color: #A569BD;
+  font-size: 1rem;
 
 }
 
