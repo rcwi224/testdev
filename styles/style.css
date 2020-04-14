@@ -32,7 +32,8 @@ h2 {
 
 h3 {
   font-family:Gerogia, serif;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 span {
@@ -171,6 +172,10 @@ p::selection {
 
 }
 
+aside {
+  border: 5px solid #EBDEF0;
+}
+
 #MainHeader {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -194,5 +199,11 @@ p::selection {
 #videos > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#homemain {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 
 }
