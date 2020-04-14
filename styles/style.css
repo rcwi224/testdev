@@ -1,6 +1,6 @@
 body {
   font-family: arial;
-
+  background-color: #fff8e6;
 }
 
 h1 {
@@ -55,6 +55,7 @@ p {
 .aboutsum {
   border: 2px solid black;
   padding: 10px;
+  display: grid;
 }
 
 blockquote {
@@ -109,9 +110,16 @@ ol > li {
 }
 
 a:hover {
-  background-color: #F5F5F5;
+  background-color: #A569BD;
   color: #F8BBD0;
-  padding: 5px;
+  padding: 2px;
+
+}
+
+nav > a:hover {
+  background-color: #A569BD;
+  color: #4b4aa1;
+
 
 }
 
@@ -129,7 +137,7 @@ article > img{
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-
+  border: 3px solid #6968c4;
 
 }
 
@@ -160,5 +168,31 @@ tr:hover {
 p::selection {
   background-color: #874af7;
   color: white;
+
+}
+
+#MainHeader {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: #EBDEF0;
+}
+
+
+#abouttable {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+#aboutupper > #two{
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 2fr;
+
+}
+
+#videos > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
 }
