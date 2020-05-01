@@ -30,6 +30,15 @@ h2 {
 
 }
 
+h4 {
+  font-family:Gerogia, serif;
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #EBDEF0;
+
+}
+
 h3 {
   font-family:Gerogia, serif;
   text-transform: uppercase;
@@ -202,8 +211,46 @@ aside {
 
 }
 
+#albums {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#albums > div > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #6968c4;
+
+}
+
+#albums > div > h3{
+  font-family:Gerogia, serif;
+  color: #EBDEF0;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #6968c4;
+  padding: 10px;
+
+}
+
+#albums > div > h4{
+  font-family:Gerogia, serif;
+  color: #6968c4;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
 #homemain {
   display: grid;
   grid-template-columns: 4fr 1fr;
+
+}
+
+#albumtable {
+  display: grid;
+  grid-template-columns: 1fr;
 
 }
